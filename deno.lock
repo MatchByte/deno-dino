@@ -1,7 +1,8 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@hono/hono@^4.6.19": "4.6.19",
+    "jsr:@hono/hono@^4.6.12": "4.6.19",
+    "npm:@solidjs/router@~0.14.10": "0.14.10_solid-js@1.9.4__seroval@1.2.0",
     "npm:@solidjs/router@~0.15.3": "0.15.3_solid-js@1.9.4__seroval@1.2.0",
     "npm:solid-js@^1.9.3": "1.9.4_seroval@1.2.0",
     "npm:typescript@~5.6.2": "5.6.3",
@@ -309,6 +310,12 @@
     "@rollup/rollup-win32-x64-msvc@4.32.0": {
       "integrity": "sha512-5hqO5S3PTEO2E5VjCePxv40gIgyS2KvO7E7/vvC/NbIW4SIRamkMr1hqj+5Y67fbBWv/bQLB6KelBQmXlyCjWA=="
     },
+    "@solidjs/router@0.14.10_solid-js@1.9.4__seroval@1.2.0": {
+      "integrity": "sha512-5B8LVgvvXijfXyXWPVLUm7RQ05BhjIpAyRkYVDZtrR3OaSvftXobWc6qSEwk4ICLoGi/IE9CUp2LUdCBIs9AXg==",
+      "dependencies": [
+        "solid-js"
+      ]
+    },
     "@solidjs/router@0.15.3_solid-js@1.9.4__seroval@1.2.0": {
       "integrity": "sha512-iEbW8UKok2Oio7o6Y4VTzLj+KFCmQPGEpm1fS3xixwFBdclFVBvaQVeibl1jys4cujfAK5Kn6+uG2uBm3lxOMw==",
       "dependencies": [
@@ -597,7 +604,8 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@hono/hono@^4.6.19"
+      "jsr:@hono/hono@^4.6.12",
+      "npm:@solidjs/router@~0.14.10"
     ],
     "packageJson": {
       "dependencies": [
